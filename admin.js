@@ -37,7 +37,7 @@ async function start(){
  if(hasCloudConfig()){
   mode='cloud';cloud=await getCloud();
   cloud.account.onAuthStateChanged(cloud.auth,user=>{
-   if(user && user.email?.toLowerCase()===window.ERZURUM_FIREBASE.ownerEmail.toLowerCase()){startEditor()}
+   if(user && user.uid===window.ERZURUM_FIREBASE.ownerUid){startEditor()}
    else {panel.hidden=true;login.hidden=false;text('Güvenli yönetim: İşletme sahibinin hesabıyla giriş yapın.')}
   });
  }else{mode='demo';startEditor()}

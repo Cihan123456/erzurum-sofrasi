@@ -2,7 +2,7 @@
 (function(){
  'use strict';
  const VERSION='10.14.1';
- function hasCloudConfig(){const c=window.ERZURUM_FIREBASE||{};return Boolean(c.apiKey&&c.authDomain&&c.projectId&&c.appId&&c.ownerEmail)}
+ function hasCloudConfig(){const c=window.ERZURUM_FIREBASE||{};return Boolean(c.apiKey&&c.authDomain&&c.projectId&&c.appId&&c.ownerUid)}
  let p;
  async function getCloud(){
   if(!hasCloudConfig())return null;

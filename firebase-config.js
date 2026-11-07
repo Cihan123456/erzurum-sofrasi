@@ -1,10 +1,12 @@
-// Firebase projesi bağlanana kadar uygulama DEMO modundadır.
-// Değerleri Firebase konsolundaki Web App configuration bölümünden alın.
-// ownerEmail adresi güvenlik kuralındaki yetkili e-posta ile aynı olmalıdır.
+// Erzurum Sofrası – Firebase bağlantısı (GitHub Pages)
+// Bu dosyadaki web yapılandırması ve UID sır değildir.
+// Yazma izinleri Firestore kurallarında sunucu tarafında denetlenir.
 window.ERZURUM_FIREBASE = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  appId: "",
-  ownerEmail: ""
+  apiKey: "AIzaSyB1qx4rj1rPnbHl_PbzUPm0-Y7yf1Yb9so",
+  authDomain: "erzurum-sofrasi.firebaseapp.com",
+  projectId: "erzurum-sofrasi",
+  storageBucket: "erzurum-sofrasi.firebasestorage.app",
+  messagingSenderId: "28664395314",
+  appId: "1:28664395314:web:cd3b37581ac477360cee2b",
+  ownerUid: "kPcr8F7k8CYNF1aeyl196cKMfWi2"
 };
