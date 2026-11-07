@@ -1,0 +1,1283 @@
+{
+  "version": 1,
+  "metadata": {
+    "project": "Erzurum Sofrası",
+    "version": "taslak-1",
+    "created": "2026-11-07",
+    "status": "Çalışma taslağı / işletme doğrulaması bekliyor",
+    "product_count": 43,
+    "nutrition": "Önceki sohbetlerde üretilen yaklaşık sayılar aynen derlenmiştir; bu dosya yeni besin hesaplaması veya bağımsız araştırma değildir.",
+    "allergen": "Model tarife göre olası alerjenler; gerçek işletmeye ait kesin beyan değildir.",
+    "publication": "İşletmenin gerçek içerik, alerjen ve porsiyon doğrulaması yapılmadan müşteriye kesin besin/alerjen bildirimi olarak yayımlanmaz.",
+    "note": "Sulu Yemekler için sabit ürün listesi yoktur; günlük değişen ürün sistemi ayrıca kurulacaktır."
+  },
+  "pageTitles": {
+    "1": "Giriş",
+    "2": "Çorbalar",
+    "3": "Kebaplar",
+    "4": "Pide ve Lahmacun",
+    "5": "Dürümler",
+    "6": "Sulu Yemekler",
+    "7": "Tatlılar",
+    "8": "İçecekler",
+    "9": "Alo Paket Servis"
+  },
+  "pages": {
+    "2": [
+      {
+        "id": "ES-001",
+        "name": "Ezogelin",
+        "prices": {
+          "single": 150,
+          "one_half": 100
+        }
+      },
+      {
+        "id": "ES-002",
+        "name": "Mercimek",
+        "prices": {
+          "single": 150,
+          "one_half": 100
+        }
+      },
+      {
+        "id": "ES-003",
+        "name": "Kelle Paça",
+        "prices": {
+          "single": 230,
+          "one_half": 170
+        }
+      },
+      {
+        "id": "ES-004",
+        "name": "Ayak",
+        "prices": {
+          "single": 230,
+          "one_half": 170
+        }
+      },
+      {
+        "id": "ES-005",
+        "name": "İşkembe",
+        "prices": {
+          "single": 230,
+          "one_half": 170
+        }
+      },
+      {
+        "id": "ES-006",
+        "name": "Beyin",
+        "prices": {
+          "single": 230,
+          "one_half": 170
+        }
+      },
+      {
+        "id": "ES-007",
+        "name": "Karışık Atom",
+        "prices": {
+          "single": 250,
+          "one_half": 200
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "ES-008",
+        "name": "Adana Kebap",
+        "prices": {
+          "single": 500,
+          "one_half": 700
+        }
+      },
+      {
+        "id": "ES-009",
+        "name": "Urfa Kebap",
+        "prices": {
+          "single": 500,
+          "one_half": 700
+        }
+      },
+      {
+        "id": "ES-010",
+        "name": "Ciğer",
+        "prices": {
+          "single": 500,
+          "one_half": 700
+        }
+      },
+      {
+        "id": "ES-011",
+        "name": "Izgara Köfte",
+        "prices": {
+          "single": 500,
+          "one_half": 700
+        }
+      },
+      {
+        "id": "ES-012",
+        "name": "Kanat",
+        "prices": {
+          "single": 450,
+          "one_half": 550
+        }
+      },
+      {
+        "id": "ES-013",
+        "name": "Kuzu",
+        "prices": {
+          "single": 560,
+          "one_half": 780
+        }
+      },
+      {
+        "id": "ES-014",
+        "name": "Patlıcanlı Kebap",
+        "prices": {
+          "single": 550,
+          "one_half": 750
+        }
+      },
+      {
+        "id": "ES-015",
+        "name": "Tavuk",
+        "prices": {
+          "single": 300,
+          "one_half": 450
+        }
+      }
+    ],
+    "4": [
+      {
+        "id": "ES-016",
+        "name": "Lahmacun",
+        "prices": {
+          "single": 150,
+          "one_half": null,
+          "double": null
+        }
+      },
+      {
+        "id": "ES-017",
+        "name": "Kıymalı Pide",
+        "prices": {
+          "single": 200,
+          "one_half": 300,
+          "double": 400
+        }
+      },
+      {
+        "id": "ES-018",
+        "name": "Kıymalı Yumurtalı",
+        "prices": {
+          "single": 230,
+          "one_half": 300,
+          "double": 440
+        }
+      },
+      {
+        "id": "ES-019",
+        "name": "Kıymalı Kaşarlı",
+        "prices": {
+          "single": 260,
+          "one_half": 320,
+          "double": 460
+        }
+      },
+      {
+        "id": "ES-020",
+        "name": "Kuşbaşılı",
+        "prices": {
+          "single": 260,
+          "one_half": 350,
+          "double": 480
+        }
+      },
+      {
+        "id": "ES-021",
+        "name": "Kuşbaşı Kaşarlı",
+        "prices": {
+          "single": 300,
+          "one_half": 450,
+          "double": 550
+        }
+      },
+      {
+        "id": "ES-022",
+        "name": "Sucuklu Kaşarlı",
+        "prices": {
+          "single": 240,
+          "one_half": 300,
+          "double": 400
+        }
+      },
+      {
+        "id": "ES-023",
+        "name": "Kaşarlı Sade",
+        "prices": {
+          "single": 200,
+          "one_half": 300,
+          "double": 400
+        }
+      }
+    ],
+    "5": [
+      {
+        "id": "ES-024",
+        "name": "Adana Dürüm",
+        "prices": {
+          "single": 220,
+          "one_half": 350
+        }
+      },
+      {
+        "id": "ES-025",
+        "name": "Urfa Dürüm",
+        "prices": {
+          "single": 220,
+          "one_half": 350
+        }
+      },
+      {
+        "id": "ES-026",
+        "name": "Ciğer Dürüm",
+        "prices": {
+          "single": 220,
+          "one_half": 350
+        }
+      },
+      {
+        "id": "ES-027",
+        "name": "Kuzu Dürüm",
+        "prices": {
+          "single": 320,
+          "one_half": 420
+        }
+      },
+      {
+        "id": "ES-028",
+        "name": "Köfte Dürüm",
+        "prices": {
+          "single": 220,
+          "one_half": 350
+        }
+      },
+      {
+        "id": "ES-029",
+        "name": "Sucuk Dürüm",
+        "prices": {
+          "single": 220,
+          "one_half": 350
+        }
+      },
+      {
+        "id": "ES-030",
+        "name": "Tavuk Dürüm",
+        "prices": {
+          "single": 200,
+          "one_half": 250
+        }
+      }
+    ],
+    "7": [
+      {
+        "id": "ES-031",
+        "name": "Fırın Sütlaç",
+        "prices": {
+          "single": 100
+        }
+      },
+      {
+        "id": "ES-032",
+        "name": "Künefe",
+        "prices": {
+          "single": 200
+        }
+      },
+      {
+        "id": "ES-033",
+        "name": "Kemalpaşa Tatlısı",
+        "prices": {
+          "single": 100
+        }
+      }
+    ],
+    "8": [
+      {
+        "id": "ES-034",
+        "name": "Ayran",
+        "prices": {
+          "single": 40
+        }
+      },
+      {
+        "id": "ES-035",
+        "name": "Coca-Cola",
+        "prices": {
+          "single": 60
+        }
+      },
+      {
+        "id": "ES-036",
+        "name": "Şalgam",
+        "prices": {
+          "single": 40
+        }
+      },
+      {
+        "id": "ES-037",
+        "name": "Gazoz",
+        "prices": {
+          "single": 40
+        }
+      },
+      {
+        "id": "ES-038",
+        "name": "Coca-Cola 2,5 LT",
+        "prices": {
+          "single": 130
+        }
+      },
+      {
+        "id": "ES-039",
+        "name": "Coca-Cola 1,5 LT",
+        "prices": {
+          "single": 110
+        }
+      },
+      {
+        "id": "ES-040",
+        "name": "Coca-Cola 1 LT",
+        "prices": {
+          "single": 90
+        }
+      },
+      {
+        "id": "ES-041",
+        "name": "Ayran 1 LT",
+        "prices": {
+          "single": 90
+        }
+      },
+      {
+        "id": "ES-042",
+        "name": "Soda",
+        "prices": {
+          "single": 40
+        }
+      },
+      {
+        "id": "ES-043",
+        "name": "Su",
+        "prices": {
+          "single": 20
+        }
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "ES-001",
+      "category": "Çorbalar",
+      "name": "Ezogelin",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 198,
+      "fat_g": 7.6,
+      "protein_g": 8.9,
+      "carbohydrate_g": 24.6,
+      "ingredients_model": "Pişmiş mercimek 70 g; pişmiş bulgur 15 g; pişmiş pirinç 15 g; soğan 15 g; salça 10 g; sıvı yağ 7 g; sıvı 118 g",
+      "allergens_model": "Buğday/gluten (bulgur)",
+      "review_notes": "Tereyağı kullanılıyorsa süt ayrıca kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-002",
+      "category": "Çorbalar",
+      "name": "Mercimek",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 206,
+      "fat_g": 7.6,
+      "protein_g": 10.2,
+      "carbohydrate_g": 25.6,
+      "ingredients_model": "Pişmiş mercimek 95 g; soğan 15 g; havuç 20 g; patates 15 g; sıvı yağ 7 g; sıvı 98 g",
+      "allergens_model": "Model tarifte belirgin 14 alerjen yok",
+      "review_notes": "Un, süt ürünü, et suyu içeriği kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-003",
+      "category": "Çorbalar",
+      "name": "Kelle Paça",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 264,
+      "fat_g": 16.7,
+      "protein_g": 20,
+      "carbohydrate_g": 7.5,
+      "ingredients_model": "Pişmiş kelle eti 65 g; et suyu 150 g; un 7 g; yoğurt 15 g; yumurta sarısı 5 g; sarımsak 3 g; tereyağı 5 g",
+      "allergens_model": "Buğday/gluten; süt; yumurta",
+      "review_notes": "Et suyu ve etin türü belirsiz",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-004",
+      "category": "Çorbalar",
+      "name": "Ayak",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 199,
+      "fat_g": 11.5,
+      "protein_g": 17.9,
+      "carbohydrate_g": 5.8,
+      "ingredients_model": "Pişmiş ayak dokusu 70 g; et suyu 165 g; un 5 g; sarımsak 5 g; tereyağı 5 g",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "Pişmiş ayak dokusu bileşimi yaklaşık modellenmiştir",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-005",
+      "category": "Çorbalar",
+      "name": "İşkembe",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 177,
+      "fat_g": 8.3,
+      "protein_g": 14.6,
+      "carbohydrate_g": 10,
+      "ingredients_model": "Pişmiş işkembe 95 g; et suyu 124 g; un 8 g; yoğurt 12 g; yumurta sarısı 5 g; sarımsak 3 g; tereyağı 3 g",
+      "allergens_model": "Buğday/gluten; süt; yumurta",
+      "review_notes": "Terbiye değişebilir",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-006",
+      "category": "Çorbalar",
+      "name": "Beyin",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 184,
+      "fat_g": 11.3,
+      "protein_g": 12.8,
+      "carbohydrate_g": 7.1,
+      "ingredients_model": "Pişmiş beyin 80 g; et suyu 147 g; un 7 g; yoğurt 10 g; sarımsak 3 g; tereyağı 3 g",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "Pişirme yöntemi değişebilir",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-007",
+      "category": "Çorbalar",
+      "name": "Karışık Atom",
+      "portion": "250 g",
+      "portion_g": 250,
+      "energy_kcal": 292,
+      "fat_g": 17.9,
+      "protein_g": 24.4,
+      "carbohydrate_g": 7.1,
+      "ingredients_model": "Kelle eti 35 g; ayak dokusu 20 g; işkembe 45 g; beyin 25 g; et suyu 98 g; un 7 g; yoğurt 10 g; yumurta sarısı 5 g; tereyağı 5 g",
+      "allergens_model": "Buğday/gluten; süt; yumurta",
+      "review_notes": "İçerik karışımı tamamen varsayımsal",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 250 gram çorba üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-008",
+      "category": "Kebaplar",
+      "name": "Adana Kebap",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 620,
+      "fat_g": 37,
+      "protein_g": 38,
+      "carbohydrate_g": 33,
+      "ingredients_model": "Pişmiş kıyma kebabı 170 g; kıyma, kuyruk yağı, kırmızı biber, tuz; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-009",
+      "category": "Kebaplar",
+      "name": "Urfa Kebap",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 590,
+      "fat_g": 32,
+      "protein_g": 43,
+      "carbohydrate_g": 33,
+      "ingredients_model": "Pişmiş kıyma kebabı 170 g; kıyma, kuyruk yağı, tuz, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-010",
+      "category": "Kebaplar",
+      "name": "Ciğer",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 540,
+      "fat_g": 18,
+      "protein_g": 53,
+      "carbohydrate_g": 38,
+      "ingredients_model": "Pişmiş kuzu ciğeri 170 g; tuz, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-011",
+      "category": "Kebaplar",
+      "name": "Izgara Köfte",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 600,
+      "fat_g": 30,
+      "protein_g": 45,
+      "carbohydrate_g": 38,
+      "ingredients_model": "Pişmiş köfte 170 g; kıyma, soğan, baharat, tuz; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "Köfte harcında ekmek ve yumurta ayrıca kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-012",
+      "category": "Kebaplar",
+      "name": "Kanat",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 570,
+      "fat_g": 28,
+      "protein_g": 44,
+      "carbohydrate_g": 33,
+      "ingredients_model": "Pişmiş yenilebilir tavuk kanadı ve derisi 160 g; yağ, tuz, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "Marinasyon ve kemikli porsiyon karşılığı kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-013",
+      "category": "Kebaplar",
+      "name": "Kuzu",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 630,
+      "fat_g": 33,
+      "protein_g": 50,
+      "carbohydrate_g": 33,
+      "ingredients_model": "Pişmiş kuzu eti 170 g; yağ, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-014",
+      "category": "Kebaplar",
+      "name": "Patlıcanlı Kebap",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 625,
+      "fat_g": 37,
+      "protein_g": 38,
+      "carbohydrate_g": 40,
+      "ingredients_model": "Pişmiş kıyma kebabı 140 g; patlıcan 120 g; yağ 6 g; tuz, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-015",
+      "category": "Kebaplar",
+      "name": "Tavuk",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 485,
+      "fat_g": 15,
+      "protein_g": 55,
+      "carbohydrate_g": 33,
+      "ingredients_model": "Pişmiş tavuk eti 170 g; yağ, tuz, baharat; lavaş 50 g; sebze garnitürü 80 g",
+      "allergens_model": "Buğday/gluten (lavaş)",
+      "review_notes": "Sütlü marinasyon kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-016",
+      "category": "Pide ve Lahmacun",
+      "name": "Lahmacun",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 465,
+      "fat_g": 14.6,
+      "protein_g": 20.4,
+      "carbohydrate_g": 60.5,
+      "ingredients_model": "Un 75 g; kıyma 65 g; sebze harcı 55 g; yağ 4 g; su, maya, tuz",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-017",
+      "category": "Pide ve Lahmacun",
+      "name": "Kıymalı Pide",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 705,
+      "fat_g": 22.3,
+      "protein_g": 31,
+      "carbohydrate_g": 91.3,
+      "ingredients_model": "Un 115 g; kıyma 100 g; sebze harcı 60 g; yağ 6 g; su, maya, tuz",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-018",
+      "category": "Pide ve Lahmacun",
+      "name": "Kıymalı Yumurtalı",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 777,
+      "fat_g": 27,
+      "protein_g": 37.3,
+      "carbohydrate_g": 91.7,
+      "ingredients_model": "Kıymalı pide malzemeleri; yumurta 50 g",
+      "allergens_model": "Buğday/gluten; yumurta",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-019",
+      "category": "Pide ve Lahmacun",
+      "name": "Kıymalı Kaşarlı",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 870,
+      "fat_g": 34.4,
+      "protein_g": 43.3,
+      "carbohydrate_g": 92.7,
+      "ingredients_model": "Kıymalı pide malzemeleri; kaşar peyniri 55 g",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-020",
+      "category": "Pide ve Lahmacun",
+      "name": "Kuşbaşılı",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 712,
+      "fat_g": 19.5,
+      "protein_g": 37.4,
+      "carbohydrate_g": 91.3,
+      "ingredients_model": "Un 115 g; kuşbaşı et 125 g; sebze harcı 60 g; yağ 7 g; su, maya, tuz",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-021",
+      "category": "Pide ve Lahmacun",
+      "name": "Kuşbaşı Kaşarlı",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 876,
+      "fat_g": 31.7,
+      "protein_g": 49.7,
+      "carbohydrate_g": 92.7,
+      "ingredients_model": "Kuşbaşılı pide malzemeleri; kaşar peyniri 55 g",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-022",
+      "category": "Pide ve Lahmacun",
+      "name": "Sucuklu Kaşarlı",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 956,
+      "fat_g": 45.7,
+      "protein_g": 40.7,
+      "carbohydrate_g": 92.5,
+      "ingredients_model": "Un 115 g; sucuk 65 g; kaşar peyniri 70 g; sebze 30 g; yağ 3 g; su, maya, tuz",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "Sucuk üretici içeriği kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-023",
+      "category": "Pide ve Lahmacun",
+      "name": "Kaşarlı Sade",
+      "portion": "1 porsiyon",
+      "portion_g": null,
+      "energy_kcal": 762,
+      "fat_g": 28.2,
+      "protein_g": 34,
+      "carbohydrate_g": 90.1,
+      "ingredients_model": "Un 115 g; kaşar peyniri 100 g; yağ 5 g; su, maya, tuz",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-024",
+      "category": "Dürümler",
+      "name": "Adana Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 570,
+      "fat_g": 35,
+      "protein_g": 27,
+      "carbohydrate_g": 37,
+      "ingredients_model": "Pişmiş kıyma kebabı 115 g; kuyruk yağı, kırmızı biber; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-025",
+      "category": "Dürümler",
+      "name": "Urfa Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 540,
+      "fat_g": 31,
+      "protein_g": 29,
+      "carbohydrate_g": 37,
+      "ingredients_model": "Pişmiş kıyma kebabı 115 g; kuyruk yağı, baharat; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-026",
+      "category": "Dürümler",
+      "name": "Ciğer Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 500,
+      "fat_g": 19,
+      "protein_g": 41,
+      "carbohydrate_g": 39,
+      "ingredients_model": "Pişmiş kuzu ciğeri 115 g; baharat; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-027",
+      "category": "Dürümler",
+      "name": "Kuzu Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 560,
+      "fat_g": 30,
+      "protein_g": 36,
+      "carbohydrate_g": 36,
+      "ingredients_model": "Pişmiş kuzu eti 120 g; baharat; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-028",
+      "category": "Dürümler",
+      "name": "Köfte Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 530,
+      "fat_g": 29,
+      "protein_g": 31,
+      "carbohydrate_g": 38,
+      "ingredients_model": "Pişmiş köfte 115 g; kıyma, soğan, baharat; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "Köftede yumurta kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-029",
+      "category": "Dürümler",
+      "name": "Sucuk Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 620,
+      "fat_g": 42,
+      "protein_g": 24,
+      "carbohydrate_g": 38,
+      "ingredients_model": "Pişmiş sucuk 95 g; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "Sucuk içerik etiketi kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-030",
+      "category": "Dürümler",
+      "name": "Tavuk Dürüm",
+      "portion": "1 adet standart dürüm",
+      "portion_g": null,
+      "energy_kcal": 440,
+      "fat_g": 13,
+      "protein_g": 43,
+      "carbohydrate_g": 36,
+      "ingredients_model": "Pişmiş tavuk eti 120 g; baharat; lavaş 65 g; sebze garnitürü 60 g; ilave yağ 3 g",
+      "allergens_model": "Buğday/gluten",
+      "review_notes": "Sütlü marinasyon kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-031",
+      "category": "Tatlılar",
+      "name": "Fırın Sütlaç",
+      "portion": "1 porsiyon / 200 g",
+      "portion_g": 200,
+      "energy_kcal": 230,
+      "fat_g": 4.4,
+      "protein_g": 6.4,
+      "carbohydrate_g": 42,
+      "ingredients_model": "Süt, pirinç, şeker, su; isteğe bağlı nişasta",
+      "allergens_model": "Süt",
+      "review_notes": "Yumurta veya kuruyemiş kullanımı kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-032",
+      "category": "Tatlılar",
+      "name": "Künefe",
+      "portion": "1 porsiyon / 150 g",
+      "portion_g": 150,
+      "energy_kcal": 533,
+      "fat_g": 25.7,
+      "protein_g": 9.2,
+      "carbohydrate_g": 68.6,
+      "ingredients_model": "Tel kadayıf, tuzsuz peynir, tereyağı, şeker, su",
+      "allergens_model": "Buğday/gluten; süt",
+      "review_notes": "Antep fıstığı servis edilirse sert kabuklu yemiş alerjeni ayrıca değerlendirilir",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-033",
+      "category": "Tatlılar",
+      "name": "Kemalpaşa Tatlısı",
+      "portion": "1 porsiyon / 120 g",
+      "portion_g": 120,
+      "energy_kcal": 272,
+      "fat_g": 2.2,
+      "protein_g": 3.5,
+      "carbohydrate_g": 60.7,
+      "ingredients_model": "Peynir, irmik, un, yumurta, şeker, su",
+      "allergens_model": "Buğday/gluten; süt; yumurta",
+      "review_notes": "Kaymak gibi ek servis malzemesi kontrol edilmeli",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri 1 porsiyon üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-034",
+      "category": "İçecekler",
+      "name": "Ayran",
+      "portion": "200 ml",
+      "portion_g": 200,
+      "energy_kcal": 64,
+      "fat_g": 3.6,
+      "protein_g": 4,
+      "carbohydrate_g": 4,
+      "ingredients_model": "Yoğurt, su, tuz",
+      "allergens_model": "Süt",
+      "review_notes": "Marka/servis hacmi örnektir",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-035",
+      "category": "İçecekler",
+      "name": "Coca-Cola",
+      "portion": "330 ml",
+      "portion_g": 330,
+      "energy_kcal": 139,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 35,
+      "ingredients_model": "Su, şeker, karbondioksit, renklendirici, asitlik düzenleyici, aroma, kafein",
+      "allergens_model": "Ürün etiketine göre kontrol edilmeli",
+      "review_notes": "Üretici etiketindeki güncel değerler doğrulanmalı",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-036",
+      "category": "İçecekler",
+      "name": "Şalgam",
+      "portion": "250 ml",
+      "portion_g": 250,
+      "energy_kcal": 10,
+      "fat_g": 0,
+      "protein_g": null,
+      "carbohydrate_g": 2.5,
+      "ingredients_model": "Su, mor havuç, şalgam turpu, tuz; fermantasyon bileşenleri",
+      "allergens_model": "Buğday/gluten olasılığı — ürün etiketinden doğrulanmalı",
+      "review_notes": "Protein değeri önceki tabloda üst sınır olarak verilmişti (≤1,3 g); JSON içinde protein_g=null tutuldu",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-037",
+      "category": "İçecekler",
+      "name": "Gazoz",
+      "portion": "250 ml",
+      "portion_g": 250,
+      "energy_kcal": 90,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 22.8,
+      "ingredients_model": "Su, şeker, karbondioksit, aroma, asitlik düzenleyici",
+      "allergens_model": "Ürün etiketine göre kontrol edilmeli",
+      "review_notes": "Marka bilinmiyor",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-038",
+      "category": "İçecekler",
+      "name": "Coca-Cola 2,5 LT",
+      "portion": "2500 ml",
+      "portion_g": 2500,
+      "energy_kcal": 1050,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 265,
+      "ingredients_model": "Su, şeker, karbondioksit, renklendirici, asitlik düzenleyici, aroma, kafein",
+      "allergens_model": "Ürün etiketine göre kontrol edilmeli",
+      "review_notes": "Toplam ambalaj",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-039",
+      "category": "İçecekler",
+      "name": "Coca-Cola 1,5 LT",
+      "portion": "1500 ml",
+      "portion_g": 1500,
+      "energy_kcal": 630,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 159,
+      "ingredients_model": "Su, şeker, karbondioksit, renklendirici, asitlik düzenleyici, aroma, kafein",
+      "allergens_model": "Ürün etiketine göre kontrol edilmeli",
+      "review_notes": "Toplam ambalaj",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-040",
+      "category": "İçecekler",
+      "name": "Coca-Cola 1 LT",
+      "portion": "1000 ml",
+      "portion_g": 1000,
+      "energy_kcal": 420,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 106,
+      "ingredients_model": "Su, şeker, karbondioksit, renklendirici, asitlik düzenleyici, aroma, kafein",
+      "allergens_model": "Ürün etiketine göre kontrol edilmeli",
+      "review_notes": "Toplam ambalaj",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-041",
+      "category": "İçecekler",
+      "name": "Ayran 1 LT",
+      "portion": "1000 ml",
+      "portion_g": 1000,
+      "energy_kcal": 320,
+      "fat_g": 18,
+      "protein_g": 20,
+      "carbohydrate_g": 20,
+      "ingredients_model": "Yoğurt, su, tuz",
+      "allergens_model": "Süt",
+      "review_notes": "Toplam ambalaj; marka bilinmiyor",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-042",
+      "category": "İçecekler",
+      "name": "Soda",
+      "portion": "200 ml",
+      "portion_g": 200,
+      "energy_kcal": 0,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "ingredients_model": "Sade doğal maden suyu",
+      "allergens_model": "Model içerikte bilinen 14 alerjen yok",
+      "review_notes": "200 ml ambalaj varsayımı",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    },
+    {
+      "id": "ES-043",
+      "category": "İçecekler",
+      "name": "Su",
+      "portion": "500 ml",
+      "portion_g": 500,
+      "energy_kcal": 0,
+      "fat_g": 0,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "ingredients_model": "İçme suyu",
+      "allergens_model": "Model içerikte bilinen 14 alerjen yok",
+      "review_notes": "500 ml ambalaj varsayımı",
+      "status": "ÇALIŞMA TASLAĞI — işletme doğrulaması yok",
+      "data_origin": "Önceki sohbetimizde hazırlanan yaklaşık değer; bağımsız laboratuvar ölçümü değil",
+      "disclaimer": "Besin değerleri belirtilen ambalaj miktarı üzerinden hesaplanmıştır. Besin değerleri, standart porsiyon ve içerik esas alınarak hesaplanmış yaklaşık ortalama değerlerdir.",
+      "allergen_verified": false,
+      "publish_ready": false,
+      "source_url": "",
+      "needs_review": true
+    }
+  ]
+}

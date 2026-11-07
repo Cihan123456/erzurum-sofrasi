@@ -1,0 +1,12 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#650500"><title>Erzurum Sofrası • Fiyat Yönetimi</title><link rel="stylesheet" href="style.css"></head>
+<body class="admin-body"><div class="admin-shell">
+<header class="admin-head"><div><p class="eyebrow">ERZURUM SOFRASI</p><h1>Fiyat yönetimi</h1><p class="muted">Onaylı menü tasarımı değişmeden yalnızca fiyatları düzenleyin.</p></div><a class="ghost-link" href="index.html?taslak=1" target="_blank" rel="noopener">Menüyü önizle ↗</a></header>
+<div id="adminStatus" class="admin-status" role="status">Yükleniyor…</div>
+<section id="loginPanel" class="admin-login" hidden><h2>İşletme sahibi girişi</h2><form id="loginForm"><label>E-posta<input id="loginEmail" type="email" autocomplete="username" required placeholder="İşletme sahibinin e-postası"></label><label>Şifre<input id="loginPassword" type="password" autocomplete="current-password" required></label><button class="primary-button">Giriş yap</button></form><p class="muted">Hesabı Firebase Authentication üzerinden yetkilendirilmiş olmalıdır.</p></section>
+<div id="adminPanel" hidden>
+<div class="admin-toolbar"><input id="searchPrices" type="search" placeholder="Ürün ara…" aria-label="Ürün ara"><button id="savePrices" class="primary-button">Fiyatları kaydet</button><button id="exportPrices" class="secondary-button">Yedek indir</button><button id="logoutBtn" class="secondary-button" hidden>Çıkış</button></div>
+<p class="muted" style="margin:.6rem 0 1rem">Değişiklik yaptığınızda fiyatlar onaylı krem-altın kutuların içinde aynı tipografiyle gösterilir. Çok uzun fiyatlarda taşma olmaması için yazı gerektiği kadar küçülür.</p>
+<div id="priceEditor"></div>
+<div class="admin-note"><strong>Besin ve alerjen notu:</strong> 43 ürünün besin değerleri araştırma taslağıdır. Alerjenler işletme reçeteleri doğrulanmadan kesin beyan olarak yayımlanmaz.</div>
+</div>
+</div><script src="firebase-config.js"></script><script src="data.js"></script><script src="cloud.js"></script><script src="shared.js"></script><script src="admin.js"></script></body></html>

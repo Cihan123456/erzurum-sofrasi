@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#650500">
+<meta name="description" content="Erzurum Sofrası – dijital menü. Çorbalar, kebaplar, pideler, dürümler, tatlılar ve içecekler.">
+<title>Erzurum Sofrası • Dijital Menü</title>
+<link rel="icon" href="assets/icon.png"><link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head><body class="menu-body">
+<main id="menu" aria-label="Erzurum Sofrası menü sayfaları"><div class="loading">Erzurum Sofrası menüsü açılıyor…</div></main>
+<div class="page-status" id="pageStatus" aria-live="polite"></div>
+<dialog id="infoModal" class="info-modal" aria-labelledby="modalTitle">
+  <div class="modal-inner">
+    <button id="modalClose" class="modal-close" type="button" aria-label="Pencereyi kapat">×</button>
+    <p class="modal-eyebrow">ERZURUM SOFRASI • ÜRÜN BİLGİSİ</p>
+    <h2 id="modalTitle"></h2>
+    <div id="modalContent"></div>
+  </div>
+</dialog>
+<script src="firebase-config.js"></script><script src="data.js"></script><script src="cloud.js"></script><script src="shared.js"></script><script src="app.js"></script>
+</body></html>

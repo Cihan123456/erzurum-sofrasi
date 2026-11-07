@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /publicMenu/prices {
+      allow read: if true;
+      // Aşağıdaki adresi gerçek işletme sahibi e-postasıyla DEĞİŞTİRİN.
+      // Email verified şartı, parola ile doğrulanmış sahip hesabını korur.
+      allow create, update: if request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email == 'OWNER_EMAIL_BURAYA'
+        && request.resource.data.keys().hasOnly(['prices','updatedAt'])
+        && request.resource.data.prices is map;
+      allow delete: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
