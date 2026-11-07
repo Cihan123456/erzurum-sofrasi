@@ -35,7 +35,8 @@ function buildMenu(){
   const section=document.createElement('section');section.className='menu-page';section.id=`sayfa-${page}`;section.dataset.page=page;
   section.setAttribute('aria-label',`${page}. sayfa: ${screenNames[page]}`);
   const poster=document.createElement('div');poster.className='poster';
-  const image=document.createElement('img');image.className='poster-image';image.src=`assets/page-${String(page).padStart(2,'0')}.png`;image.alt=`Erzurum Sofrası, ${screenNames[page]} sayfası`;image.draggable=false;
+  const image=document.createElement('img');image.className='poster-image';image.src=`assets/page-${String(page).padStart(2,'0')}.webp`;image.alt=`Erzurum Sofrası, ${screenNames[page]} sayfası`;image.draggable=false;
+  image.decoding='async';image.loading=page<=2?'eager':'lazy';image.fetchPriority=page===1?'high':'low';
   poster.append(image);
   const rows=catalog.pages[String(page)];
   const layout=geo[String(page)];
