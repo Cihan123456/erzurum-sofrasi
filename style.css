@@ -61,7 +61,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offse
 .price-inputs label{display:flex;flex-direction:column;gap:4px;color:#705f50;font-size:11px;font-weight:700}
 .price-inputs input{width:90px;font-size:16px;font-weight:800;text-align:center}
 .admin-note{padding:15px;border:1px solid #dac89c;background:#fff3d7;border-radius:12px;color:#5a3716;line-height:1.5;font-size:13px;margin-top:25px}
-@media(max-width:570px){.price-editor-row{align-items:flex-start;flex-direction:column}.price-inputs{width:100%;justify-content:start}.admin-head{flex-wrap:wrap}.price-inputs input{width:100px}}
+@media(max-width:570px){.price-editor-row{align-items:flex-start;flex-direction:column;justify-content:flex-start;gap:9px}.price-editor-row .name{flex:0 0 auto;width:100%}.price-inputs{width:100%;justify-content:start;flex:0 0 auto}.admin-head{flex-wrap:wrap}.price-inputs input{width:100px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 /* Telefon dikey ekranlarda sayfa, tarayıcının görünen alanını tamamen kaplar.
