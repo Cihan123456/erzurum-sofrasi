@@ -73,20 +73,19 @@ function fmt(x,dec=1){return Number.isFinite(x)?x.toLocaleString('tr-TR',{maximu
 function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function openInfo(id){
  const p=catalog.products.find(p=>p.id===id);if(!p)return;
- const isDraftPreview=new URLSearchParams(location.search).get('taslak')==='1';
- const content=`<div class="warning-note"><strong>Standart tarif hesabı.</strong> Bu ürünün verileri yaklaşık araştırma taslağıdır; işletmenin gerçek reçetesiyle henüz doğrulanmadı.</div>
- <div class="macro-grid">
- <div class="macro"><span>Yaklaşık enerji</span><strong>${fmt(p.energy_kcal,0)} kcal</strong></div>
+ const content=`<div class="macro-grid">
+ <div class="macro"><span>Enerji</span><strong>${fmt(p.energy_kcal,0)} kcal</strong></div>
  <div class="macro"><span>Yağ</span><strong>${fmt(p.fat_g)} g</strong></div>
  <div class="macro"><span>Protein</span><strong>${fmt(p.protein_g)} g</strong></div>
  <div class="macro"><span>Karbonhidrat</span><strong>${fmt(p.carbohydrate_g)} g</strong></div>
  </div>
- <p class="modal-subtitle">İçindekiler – örnek standart tarif</p>
+ <p class="modal-subtitle">Porsiyon</p>
+ <p class="modal-bodycopy">${escapeHtml(p.portion)}</p>
+ <p class="modal-subtitle">İçindekiler</p>
  <p class="modal-bodycopy">${escapeHtml(p.ingredients_model)}</p>
- <p class="modal-subtitle">Alerjen bilgileri</p>
- <p class="modal-bodycopy">${p.allergen_verified?escapeHtml(p.allergens_model):'İşletmeye özel alerjen doğrulaması henüz tamamlanmadı. Alerjiniz varsa sipariş vermeden önce işletmeyle görüşün.'}</p>
- ${isDraftPreview&&!p.allergen_verified?`<div class="warning-note"><strong>Yalnızca yönetim önizlemesi – muhtemel alerjenler:</strong> ${escapeHtml(p.allergens_model)}. Kesin restoran beyanı değildir.</div>`:''}
- <p class="nutrition-footnote">${escapeHtml(p.disclaimer)}${p.portion?' • Hesaplama miktarı: '+escapeHtml(p.portion):''}</p>
+ <p class="modal-subtitle">Alerjenler</p>
+ <p class="modal-bodycopy">${escapeHtml(p.allergens_model)}</p>
+ <p class="nutrition-footnote">Besin değerleri belirtilen 1 porsiyon üzerinden hesaplanmıştır. Standart tarife göre ortalama değerlerdir.</p>
  <a class="call-button" href="tel:${PHONE}">☎ İşletmeyi ara • 0531 586 07 98</a>`;
  document.querySelector('#modalTitle').textContent=p.name;
  document.querySelector('#modalContent').innerHTML=content;
