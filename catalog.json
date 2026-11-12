@@ -373,6 +373,15 @@
           "single": 20
         }
       }
+    ],
+    "6": [
+      {
+        "id": "ES-TABLDOT-01",
+        "name": "Tabldot Menü – 4 Çeşit Yemek",
+        "prices": {
+          "single": 200
+        }
+      }
     ]
   },
   "products": [

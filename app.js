@@ -11,7 +11,7 @@ function renderPrices(){
  document.querySelectorAll('.price-value').forEach(el=>{
   const k=el.dataset.priceKey;
   const number=(currentPrices[k]??defaults[k]);
-  el.textContent=Number(number).toLocaleString('tr-TR')+' ₺';
+  el.textContent=Number(number).toLocaleString('tr-TR')+(el.dataset.priceStyle==='tabldot'?' TL':' ₺');
   let initial=(Number(el.dataset.baseSize)||40)*(el.parentElement.offsetWidth/PAGE_W);
   el.style.fontSize=initial+'px';
   const width=el.getBoundingClientRect().width-3;
@@ -35,7 +35,7 @@ function buildMenu(){
   const section=document.createElement('section');section.className='menu-page';section.id=`sayfa-${page}`;section.dataset.page=page;
   section.setAttribute('aria-label',`${page}. sayfa: ${screenNames[page]}`);
   const poster=document.createElement('div');poster.className='poster';
-  const image=document.createElement('img');image.className='poster-image';image.src=`assets/page-${String(page).padStart(2,'0')}.webp`;image.alt=`Erzurum Sofrası, ${screenNames[page]} sayfası`;image.draggable=false;
+  const image=document.createElement('img');image.className='poster-image';image.src=`assets/page-${String(page).padStart(2,'0')}.webp${page===6?'?v=tabldot-20261112':''}`;image.alt=`Erzurum Sofrası, ${screenNames[page]} sayfası`;image.draggable=false;
   image.decoding='async';image.loading=page<=2?'eager':'lazy';image.fetchPriority=page===1?'high':'low';
   poster.append(image);
   const rows=catalog.pages[String(page)];
@@ -55,6 +55,21 @@ function buildMenu(){
     // Price overlay occupies INSIDE original border; pixel-cleared art remains the exact original page.
     span.style.left=pct(item.left+2,PAGE_W);span.style.top=pct(item.top+2,PAGE_H);
     span.style.width=pct(item.width-4,PAGE_W);span.style.height=pct(item.height-4,PAGE_H);
+    poster.append(span);
+   }
+  }
+  // Tabldot (6. sayfa): mevcut fiyat hizmetini kullanan, özel fırça alanına oturan canlı yazı.
+  if(page===6){
+   const tab=catalog.pages['6']?.find(p=>p.id==='ES-TABLDOT-01');
+   if(tab){
+    const span=document.createElement('span');span.className='price-value';
+    span.dataset.priceKey=priceKey(tab.id,'single');span.dataset.baseSize='64';
+    span.dataset.priceStyle='tabldot';
+    span.style.left=pct(575,PAGE_W);span.style.top=pct(1390,PAGE_H);
+    span.style.width=pct(222,PAGE_W);span.style.height=pct(67,PAGE_H);
+    span.style.color='#ffd26a';span.style.fontFamily="Georgia,'Times New Roman',serif";
+    span.style.fontWeight='900';span.style.letterSpacing='-.035em';
+    span.style.textShadow='1px 2px 1px #58090099';
     poster.append(span);
    }
   }
